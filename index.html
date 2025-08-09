@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sparkle </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./logo.jpeg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="sparkle logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Infantilu">
+        <ion-icon name="Infantilu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Infantilu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="sparkle logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Sobre nós</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Produtos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Comprar</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/hero-banner.png')">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            Para quem ainda não lê, <strong>mas ama ouvir!</strong>
+          </h2>
+
+          <p class="hero-text"> Livros encantadores para ler com os pequenos! 
+            Histórias que despertam sonhos desde cedo.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Comprar</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection">
+        <div class="container">
+
+          <ul class="collection-list has-scrollbar">
+
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-1.jpg')">
+                <h3 class="h4 card-title"></h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-2.jpg')">
+                <h3 class="h4 card-title"></h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card" style="background-image: url('./assets/images/collection-3.jpg')">
+                <h3 class="h4 card-title"></h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">MAIS VENDIDOS </h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn  active">Todos</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Cora</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Biruta</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Bailer</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Todolivro</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Elo</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <a href="https://www.amazon.com.br/Como-Sinto-Quando-Tenho-Medo/dp/8573986662/ref=pd_bxgy_thbs_d_sccl_2/145-6162070-6593131?pd_rd_w=v7lBl&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=P1Y3M81RYT27Y9JYM6V4&pd_rd_wg=kLJGr&pd_rd_r=6ec4dccc-bfbb-4818-a2f0-5afdfd7c3296&pd_rd_i=8573986662&psc=1" target="_blank" >
+                  <img src="./assets/images/product-1.jpg" width="312" height="350" loading="lazy"
+                    alt="
+Como eu me sinto...Quando tenho medo Capa comum – 
+Edição Português " class="image-contain"></a>
+
+                  <div class="card-badge">Novo</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link"></a> 
+                    <a href="#" class="card-cat-link">2 - 5 anos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Tenho-Medo/dp/8573986662/ref=pd_bxgy_thbs_d_sccl_2/145-6162070-6593131?pd_rd_w=v7lBl&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=P1Y3M81RYT27Y9JYM6V4&pd_rd_wg=kLJGr&pd_rd_r=6ec4dccc-bfbb-4818-a2f0-5afdfd7c3296&pd_rd_i=8573986662&psc=1" target="_blank" >
+                      Como eu me sinto...Quando tenho medo - Capa dura </a>
+                  </h3>
+
+                  <data class="card-price" value="13,90">R$13,90</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  
+                  <img src="./assets/images/product-2.jpg" width="312" height="350" loading="lazy"
+                    alt="Livro-dedoche  – 
+Edição Português  " class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                 
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Estou-Triste/dp/8573986611/ref=pd_sim_d_sccl_1_3/145-6162070-6593131?pd_rd_w=Epnf2&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=SH5TVSP75MC5ZPJGP9HH&pd_rd_wg=J27x0&pd_rd_r=9cde7220-18fc-409d-ba70-a9cdb7a589e8&pd_rd_i=8573986611&psc=1" target="_blank"
+                    >Como eu me sinto...Quando estou triste - Capa dura
+ </a>
+                  </h3>
+
+                  <data class="card-price" value="R$11,74">R$11,74</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-3.jpg" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+
+                  <div class="card-badge">Novo</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                    
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Eu-Sinto-Quando-Bem/dp/8573986646/ref=pd_sim_d_sccl_1_4/145-6162070-6593131?pd_rd_w=nE03v&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=X0WZPBATXC9BMDSJZMKJ&pd_rd_wg=8QW5n&pd_rd_r=6b47af78-4884-4a8f-bef6-ad9bdf38f62d&pd_rd_i=8573986646&psc=1" target="_blank"  
+                    >Como eu me sinto...Quando me sinto bem - Capa dura</a>
+                  </h3>
+
+                  <data class="card-price" value="R$11,74">R$11,74</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-4.jpg" width="312" height="350" loading="lazy"
+                    alt="Air Jordan 7 Retro " class="image-contain">
+
+                  <div class="card-badge"> -25%</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Estou-Ci%C3%BAmes/dp/8573986603/ref=pd_sim_d_sccl_1_4/145-6162070-6593131?pd_rd_w=zoUia&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=TW1MBDEWP804JYDR4MVS&pd_rd_wg=33kPD&pd_rd_r=0c95d36a-3108-487b-9765-cf2543f72ead&pd_rd_i=8573986603&psc=1" target="_blank"
+                      >Como eu me sinto...Quando estou com ciúmes - Capa dura</a>
+                  </h3>
+
+                  <data class="card-price" value="R$11,74">R$11,74</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-5.jpg" width="312" height="350" loading="lazy"
+                    alt="Nike Air Max 270 SE" class="image-contain">
+
+                  <div class="card-badge">Novo</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                    
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Estou-Zangado/dp/857398662X/ref=pd_bxgy_thbs_d_sccl_2/145-6162070-6593131?pd_rd_w=PqjwZ&content-id=amzn1.sym.ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_p=ea5263f5-901f-4a74-9b73-3fc0e530788d&pf_rd_r=7D7FWBT8KJYYSW7TH5KQ&pd_rd_wg=8Xv10&pd_rd_r=fcbe49be-a05e-4ff0-acda-e39367c9901f&pd_rd_i=857398662X&psc=1" target="_blank" 
+                    >Como eu me sinto...Quando estou com zangado - Capa dura</a>
+                  </h3>
+
+                  <data class="card-price" value="R$11,74">R$11,74</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-6.jpg" width="312" height="350" loading="lazy"
+                    alt="Adidas Sneakers Shoes" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                   
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Importo-Outros/dp/8573986638/ref=pd_sim_d_sccl_1_5/145-6162070-6593131?pd_rd_w=nCF32&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=AZYH9RPT62P8PEWX15EP&pd_rd_wg=xBuIY&pd_rd_r=8d2568a0-811c-44b9-8de5-3491cd8d022e&pd_rd_i=8573986638&psc=1" target="_blank"  
+                    >Como eu me sinto...Quando me importo com os outros - Capa dura</a>
+                  </h3>
+
+                  <data class="card-price" value="R$19,35">R$19,35</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-7.jpg" width="312" height="350" loading="lazy"
+                    alt="Nike Basketball shoes" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                    
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Como-Sinto-Quando-Sua-Falta/dp/8573986654/ref=pd_sim_d_sccl_1_5/145-6162070-6593131?pd_rd_w=nr0Ok&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=NA8P7ZJJ0FFD496R32CG&pd_rd_wg=Jkh8L&pd_rd_r=4c0ae78b-3019-4fdd-b1c7-ff8b0a26fb99&pd_rd_i=8573986654&psc=1" target="_blank"
+                    >Como eu me sinto...Quando sinto sua falta - Capa Comum</a>
+                  </h3>
+
+                  <data class="card-price" value="R$11,74">R$11,74</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-8.jpg" width="312" height="350" loading="lazy"
+                    alt="Simple Fabric Shoe" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-3">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-4">
+                        <ion-icon name="repeat-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">2 - 5 anos</a> 
+                    
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.amazon.com.br/Box-com-Livros-Como-Sinto/dp/6556178845/ref=sr_1_1?crid=B8QVR6QYKAPO&dib=eyJ2IjoiMSJ9.jq7aYT0uPdpw-4NxblqXdZA571wHB-rcVxydnF49JP1nkxrIEnhJswzMHBSkHxS6wxCl5Xe_fCeucuY_oqTfyjM4prUjZpI_CgLXEgP8SR0BAqrdj5JlvMsHd0rlBGsbhAjbI3oZl53Zyg5quOb3Vk5jQ7zKxW1fSWoA-h-LpG5KYOR6lkEoF4GPPooFFQe5bw-84Lhvn4jze84vADvFPY3NWYlS85KZQs2gYiFOQPJFc5PzP2tCRsQ5x8BZCr5BokW_rIMQ43SlJ6YHXeiliWkRtORZg50IxNMgshuaB6g.NEuDzdew8bLog6ODQ2zjW_BsGNdpQ6sXUKG0kvHUasg&dib_tag=se&keywords=como+eu+me+sinto+quando&qid=1752318199&sprefix=como+eu+me%2Caps%2C438&sr=8-1" target="_blank"
+                    >Box com 7 Livros Como Eu Me Sinto - Capa dura</a>
+                  </h3>
+
+                  <data class="card-price" value="R$73,96">R$73,96</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <ul class="cta-list">
+
+            <li>
+              <div class="cta-card" style="background-image: url('./assets/images/cta-1.jpg')">
+                <p class="card-subtitle">Editora Cora</p>
+
+                <h3 class="h2 card-title">2 livros, o terceiro é grátis </h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Comprar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="cta-card" style="background-image: url('./assets/images/cta-2.jpg')">
+                <p class="card-subtitle">Editora Biruta</p>
+
+                <h3 class="h2 card-title">A cada compra, um “vale-surpresa”</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Comprar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL
+      -->
+
+      <section class="section special">
+        <div class="container">
+
+          <div class="special-banner" style="background-image: url('./assets/images/special-banner.jpg')">
+            <h2 class="h3 banner-title">Nova Edição</h2>
+
+            <a href="#" class="btn btn-link">
+              <span>explorar</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <div class="special-product">
+
+            <h2 class="h2 section-title">
+              <span class="text">Livro Dedoche - Abração</span>
+
+              <span class="line"></span>
+            </h2>
+
+            <ul class="has-scrollbar">
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/produtonovo1.jpg" width="312" height="350" loading="lazy"
+                      alt="Running Sneaker Shoes" class="image-contain">
+
+                    <div class="card-badge">Novo</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">0 - 3 anos</a> 
+                      
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="https://www.amazon.com.br/Livro-Dedoche-Abra%C3%A7%C3%A3o-Cachorro/dp/6556170844/ref=asc_df_6556170844?mcid=253b0360a5813fbe806b68fe3fea41fa&tag=googleshopp00-20&linkCode=df0&hvadid=709969437044&hvpos=&hvnetw=g&hvrand=2645668892849400035&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-1241732990521&psc=1&language=pt_BR&gad_source=1" target="_blank"
+                      >Livro Dedoche - Abração de Cachorro</a>
+                    </h3>
+
+                    <data class="card-price" value=" R$15,37"> R$15,37</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/produtonovo2.jpg" width="312" height="350" loading="lazy"
+                      alt="Livro-dedoche  – 
+Edição Português  " class="image-contain">
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">0 - 3 anos</a> 
+                      
+
+                    <h3 class="h3 card-title">
+                      <a href="https://www.amazon.com.br/Livro-Dedoche-Abra%C3%A7%C3%A3o-Pinguim/dp/6556177288/ref=pd_sim_d_sccl_2_5/145-6162070-6593131?pd_rd_w=6oS2W&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=0NJRMPT3TP1916E7W9FF&pd_rd_wg=1Pzk5&pd_rd_r=508b4489-83d1-41b7-b7a5-cd27a085b563&pd_rd_i=6556177288&psc=1" target="_blank
+                      ">Livro dedoche - Abração de Pinguim</a>
+                    </h3>
+
+                    <data class="card-price" value="R$20,90">R$20,90</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/produtonovo3.jpg" width="312" height="350" loading="lazy"
+                      alt="Simple Fabric Shoe" class="image-contain">
+
+                    <div class="card-badge">Novo</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">0 - 3 anos</a> 
+                      
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="https://www.amazon.com.br/Livro-Dedoche-Abra%C3%A7%C3%A3o-Ovelha/dp/6556170674/ref=pd_sim_d_sccl_1_12/145-6162070-6593131?pd_rd_w=uFHpt&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=CGHJWMKRFWDZ0HMRSFQ6&pd_rd_wg=wgVXV&pd_rd_r=1f58c176-03cc-4402-885c-4782c43d0b9b&pd_rd_i=6556170674&psc=1" target="_blank"
+                      >Livro dedoche - Abração de Ovelha</a>
+                    </h3>
+
+                    <data class="card-price" value=" R$14,65"> R$14,65</data>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/product-4.jpg" width="312" height="350" loading="lazy"
+                      alt="Air Jordan 7 Retro " class="image-contain">
+
+                    <div class="card-badge"> -25%</div>
+
+                    <ul class="card-action-list">
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-1">
+                          <ion-icon name="cart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-2">
+                          <ion-icon name="heart-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-3">
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      </li>
+
+                      <li class="card-action-item">
+                        <button class="card-action-btn" aria-labelledby="card-label-4">
+                          <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+
+                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      </li>
+
+                    </ul>
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Infantil</a> /
+                      <a href="#" class="card-cat-link">Infantil</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Air Jordan 7 Retro </a>
+                    </h3>
+
+                    <data class="card-price" value="170.85">$170.85 <del>$200.21</del></data>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" width="53" height="28" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Frete grátis</h3>
+
+                  <p class="card-text">
+                    Para compras acima de  <span>R$79,99</span>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" width="43" height="35" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">pagamento</h3>
+
+                  <p class="card-text">
+                    Pagamento seguro 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Devolução grátis</h3>
+
+                  <p class="card-text">
+                    Devolução em 30 dias
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-4.png" width="40" height="40" loading="lazy" alt="Service icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Suporte 24h</h3>
+
+                  <p class="card-text">
+                    Suporte rápido
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="section insta-post">
+
+        <ul class="insta-post-list has-scrollbar">
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-1.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-2.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-3.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-4.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-5.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-6.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-7.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <img src="./assets/images/insta-8.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
+              class="insta-post-banner image-contain">
+
+            <a href="#" class="insta-post-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="sparkle logo">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Entre em contato</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                  Rua das Borboletas, 123 – Jardim Encantado, São Paulo – SP, CEP 01234-567
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+5512345678912</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:sparkle@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">sparkle@ajuda.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Minha Conta</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Minha Conta</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Carrinho</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Favoritos</span>
+              </a>
+            </li>
+
+           
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Novos Produtos</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Horários</p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Seg - Ter:</th>
+
+                  <td class="table-data">8h - 22h</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Qua:</th>
+
+                  <td class="table-data">8h - 19h</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Qui - Sex:</th>
+
+                  <td class="table-data">7h - 20h</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sáb:</th>
+
+                  <td class="table-data">9h - 20h</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Dom:</th>
+
+                  <td class="table-data">Fechado</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="newsletter-text">
+              Quer novidades, lançamentos e ideias de leitura para crianças? Cadastre-se na nossa newsletter!
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Cadastre-se</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#" class="copyright-link">Teacher Web - Digital Max</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
